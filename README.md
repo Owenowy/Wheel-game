@@ -40,6 +40,6 @@ Project is created with:
 ## Support
 
 If you have questions or if you find a bug you can write it here:
-`
+
 [CLICK](https://github.com/WieczorekKacper/Wheel-game/issues)
-`
+
