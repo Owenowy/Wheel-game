@@ -3,7 +3,7 @@ class Sound {
 
     }
     startSound() {
-        var snd2 = new Audio("dzwiek.mp3");
+        var snd2 = new Audio("SoundSecond.mp3");
         this.loop = false;
         this.autoplay = false;
         snd2.play()
