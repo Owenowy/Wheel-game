@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    width: 100%;
+    height: 100%;     
+}
+
+.btn {
+    position: relative;
+    
+}
+.bgc {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -6;
+
+}
+
+.fire1 {
+    position: fixed;
+    transform: rotate(30deg);
+    left: -5%;
+    width: 20%;
+}
+
+.fire2 {
+    position: fixed;
+    transform: rotate(-30deg);
+    right: -4%;
+    width: 20%;
+    overflow: hidden;
+
+}
+
+.kolo {
+    position: fixed;
+    width: 600px;
+   
+    margin:auto auto;
+  left:0;
+  right:0;
+  top: 0;
+  bottom:200px;
+    z-index: -4;
+    transform: sc
+}
+
+.strzalka {
+  position: fixed;
+  width: 600px; 
+  margin:auto auto;
+  left:0;
+  right:0;
+  top: 0;
+  bottom:200px;
+  z-index: -3;
+}
+
+button {
+    background-color: rgb(224, 224, 224);
+    border: black 5px solid;
+    position: fixed;
+    cursor: pointer;
+        font-family: monospace;
+        border-radius: 50em;
+        font-size: 50px;
+        width: 350px;
+        height: 100px;
+        margin:auto auto;
+        left:0;
+        right:0;
+        top: 0;
+        bottom:200px;
+}
+
+.tablica {
+    position: fixed;
+    height: 250px;
+    width: 120%;
+    bottom: -5%;
+    left: -10%;
+    overflow: hidden;
+    z-index: -2;
+}
+.money2 {
+    position: fixed;
+    font-size: 35px;
+    color: white;
+    bottom: 130px;
+    left: 20px;
+}
+
+.money {
+    position: fixed;
+    font-size: 35px;
+    color: white;
+    bottom: 90px;
+    left: 50px;
+}
+
+.money div {
+    color: yellow;
+    animation: 1s linear infinite normal;
+}
+
+.result2 {
+    position: fixed;
+    font-size: 35px;
+    color: white;
+    bottom: 45px;
+    left: 20px;
+    animation: 1s linear infinite normal
+}
+
+.result {
+    position: fixed;
+    font-size: 35px;
+    color: white;
+    bottom: 5px;
+    left: 50px;
+}
+
+.result div {
+    color: yellow;
+    animation: 1s linear infinite normal;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 40px;
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    bottom: 320px;
+    z-index: 4;
+}
+
+.display2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    font-size: 40px;
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    bottom: 320px;
+    z-index: 3;
+}
+
+.panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+.colors {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 50px;
+    position: absolute;
+    margin:auto auto;
+    left: -5%;
+    right:0;
+    top: 0;
+    bottom: 200px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.stawka {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 20px;
+    position: absolute;
+    margin:auto auto;
+    left: -2%;
+    right:0;
+    top: 0;
+    bottom: 80px;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+.colors span {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+
+}
+
+.black {
+    background-color: black;
+    /* box-shadow: 0 0 0 4px white */
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.active {
+    border: white 4px solid;
+}
+
+.stawka span {
+
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: white
+}
+
+@keyframes colors {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: white;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+    
+ 
+ @media (max-width: 1030px) and (max-height: 800px) {
+    body {
+     zoom: 60%;
+    } 
+ }
+ @media (max-width: 600px) and (max-height: 950px) {
+    body {
+     zoom: 70%;
+    } 
+ }
+ @media (max-width: 395px) and (max-height: 851px) {
+    body {
+     zoom: 60%;
+    } 
+@media (max-width: 395px) and (max-height: 780px) {
+    body {
+     zoom: 60%;
+    } 
+
+ @media (max-width: 285px) and (max-height: 660px) {
+    body {
+     zoom: 50%;
+    } 
+    .kolo, .strzalka, button {
+        zoom:90%
+    }
+ }
+}}
