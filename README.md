@@ -12,7 +12,7 @@
 
 Game made in JavaScript. You start with 200$ and try to get rich. For a correctly placed color red or black you can multiply rate X2. Color green can multiply your rate X60! Good luck!
 
-![game](./imageGame.jpg)
+!<img src="drawing.jpg" alt="drawing" width="200"/>
 
 ## Demo
 
