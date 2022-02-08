@@ -7,6 +7,7 @@
 * [Basic setup](#basic-setup)
 * [Technologies](#technologies)
 * [Support](#support)
+* [Licensce](#license)
 
 ## Information
 
@@ -33,13 +34,17 @@ cd Wheel-game
 ```
 ## Technologies
 Project is created with:
-*HTML5
-*CSS3
-*JavaScript ES2021
+* HTML5
+* CSS3
+* JavaScript ES2021
 
 ## Support
 
 If you have questions or if you find a bug you can write it here:
 
 [CLICK](https://github.com/WieczorekKacper/Wheel-game/issues)
+
+## License
+
+This project is licensed under the MIT License
 
